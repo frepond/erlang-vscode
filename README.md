@@ -7,7 +7,10 @@ This extension provides Erlang/OTP support for [Visual Studio Code](https://code
 * 2017-06-12: Common used rebar3 commands (contributed by @frepond)
 * 2017-06-09: Experimental workspace modules and functions auto-completion (contributed by @frepond)
 * 2016-02-17: Experimental module name auto-completion (*currently Erlang standard library modules only*)
-* 2016-02-16: Added experimental support for auto-completion of Erlang standard library module functions. Enable it with
+* 2016-02-16: Added experimental support for auto-completion of Erlang standard library module functions.
+
+Enable it with:
+
 setting `erlang.enableExperimentalAutoComplete` to `true` in your user settings and restart VSCode.
 
 ## Features
@@ -18,7 +21,7 @@ setting `erlang.enableExperimentalAutoComplete` to `true` in your user settings 
 * Auto-complete (*experimental*)
 * Rebar3 common commands
 * Format document (*needs emacs installed*)
-* Generate Erlang ctags (*needs ctags installed, for use with [ctags plugin](https://marketplace.visualstudio.com/items?itemName=jtanx.ctagsx) *)
+* Generate Erlang ctags (* needs ctags installed, for use with [ctags plugin](https://marketplace.visualstudio.com/items?itemName=jtanx.ctagsx) *)
 
 Workspace auto-completion is based on file `.erl_workspace.json` in the workspace top folder. This file could be generated
 using the `Cmd+Shit+P` and `Erlang: generate workspace completions`. This file is generated with available *.beam under the current
